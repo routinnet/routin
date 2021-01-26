@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879988905186",
+    "project_id": "routin-d9cb9",
+    "storage_bucket": "routin-d9cb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879988905186:android:264bdee62498875cfbfabb",
+        "android_client_info": {
+          "package_name": "ir.karcook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879988905186-7h91fpr8legctslm6r2ujarbhksh4m9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.karcook",
+            "certificate_hash": "c400f2dead6528c2858409eb09b3ab9d49ccd4e5"
+          }
+        },
+        {
+          "client_id": "879988905186-f0dkt50nuf78n1arlkpb40h5t81se0rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC96KQWEIfb8V1n7CPk6856W_tc7t6ZYbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879988905186-f0dkt50nuf78n1arlkpb40h5t81se0rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,22 @@
+
+
+
+
 apply plugin: 'com.android.application'
+// Add this line
 apply plugin: 'com.google.gms.google-services'
 
+dependencies {
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // Add the dependencies for any other desired Firebase products
+    // https://firebase.google.com/docs/android/setup#available-libraries
+}
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -51,6 +67,5 @@ dependencies {
     implementation 'com.github.jeancsanchez:JcPlayer:2.6.11'
     implementation 'de.hdodenhof:circleimageview:2.1.0'
     implementation 'com.auth0.android:jwtdecode:2.0.0'
-
-    implementation 'com.google.firebase:firebase-messaging:20.2.0'
+    
 }
