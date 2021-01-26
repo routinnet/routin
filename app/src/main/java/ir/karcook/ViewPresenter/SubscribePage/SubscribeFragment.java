@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import java.io.Serializable;
 
-import ir.karcook.FCM.MyFirebaseMessagingService;
+
 import ir.karcook.Models.CreateFactorIdAPIModel;
 import ir.karcook.Models.SubscribeAPIModel;
 import ir.karcook.R;

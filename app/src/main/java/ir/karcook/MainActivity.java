@@ -1,25 +1,18 @@
 package ir.karcook;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.app.Dialog;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import ir.karcook.FCM.SendTokenToServer;
 import ir.karcook.Tools.Shared_Prefrences;
-import ir.karcook.UseCase.SendTokenToServer_useCase;
 import ir.karcook.ViewPresenter.CategoryPage.CategoryFragment;
 import ir.karcook.ViewPresenter.CompetitionPage.CompetitionFragment;
 import ir.karcook.ViewPresenter.HomePage.HomeFragment;
@@ -55,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (Shared_Prefrences.getInstance(getApplicationContext()).getSp()
                 .getBoolean(getString(R.string.logged), false)) {
-            SendTokenToServer.getInstance().sendTokenToServer(new SendTokenToServer_useCase(),
-                    Shared_Prefrences.getInstance(this).getSp().getString(getString(R.string.fcm_token), ""), this);
         }
 
         binding.bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

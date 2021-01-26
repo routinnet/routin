@@ -3,9 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be05521ead19f2e4708f879a8cb61133/jetified-JcPlayer-2.6.11/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be05521ead19f2e4708f879a8cb61133/jetified-JcPlayer-2.6.11/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ad7279ae26aedc3f16a42d131883ee/jetified-JcPlayer-2.6.11/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ad7279ae26aedc3f16a42d131883ee/jetified-JcPlayer-2.6.11/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ad7279ae26aedc3f16a42d131883ee/jetified-JcPlayer-2.6.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fef8bff66b4a12a71e55824ace39a225/jetified-JcPlayer-2.6.11/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fef8bff66b4a12a71e55824ace39a225/jetified-JcPlayer-2.6.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fef8bff66b4a12a71e55824ace39a225/jetified-JcPlayer-2.6.11/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
