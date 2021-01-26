@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Karcook</string>
+    <string name="serverError">خطا در ارتباط با سرور</string>
+    <string name="pleaseWait">لطفا منتظر بمانید</string>
+    <string name="retryText">تلاش مجدد</string>
+    <string name="noData">اطلاعاتی یافت نشد!!!</string>
+    <string name="token">token</string>
+    <string name="firstRun">firstRun</string>
+    <string name="firstName">firstName</string>
+    <string name="lastName">lastName</string>
+    <string name="netWorkError">لطفا از اتصال خود به اینترنت مطمئن شوید</string>
+    <string name="EmptyFieldError">لطفا همه فیلد ها را پر کنید</string>
+    <string name="logged">logged</string>
+    <string name="passwordError">کلمه عبور نمیتواند کمتر از 6 کاراکتر باشد</string>
+    <string name="userName">userName</string>
+    <string name="tokenDateTime">tokenDateTime</string>
+    <string name="successMessage">با موفقیت ثبت شد</string>
+    <string name="errorRepeatePass">کلمه عبورهای وارد شده یکسان نیستند</string>
+    <string name="successChangePass">رمز عبور با موفقیت تغییر یافت</string>
+    <string name="crop_image_menu_crop">تایید</string>
+    <string name="pleaseLogin">شما ابتدا باید وارد حساب کاربری خود شوید</string>
+    <string name="loginSuccess">با موفقیت وارد شدید</string>
+    <string name="invalidNumber">لطفا شماره تلفن را صحیح وارد کنید</string>
+    <string name="fcm_token">fcm_token</string>
+    <string name="fcm_sent">fcm_sent</string>
+    <string name="userDisable">حساب کاربری شما غیر فعال است</string>
+    <string name="chooseDate">انتخاب تاریخ</string>
+    <string name="chooseInMap">انتخاب روی نقشه</string>
+    <string name="pleaseRate">شما به هیچ گزینه ای امتیاز نداده اید</string>
+    <string name="addedFav">به علاقه مندی ها اضافه شد</string>
+    <string name="deletedFav">از علاقه مندی ها حذف شد</string>
+    <string name="password">password</string>
+    <string name="imageList">image_list</string>
+    <string name="personalCode">personalCode</string>
+
+    <string name="yearMost4Digits">سال باید 4 رقم باشد</string>
+    <string name="invalidPersonelCode">کد پرسنلی وارد نشده</string>
+    <string name="invalidTypeCode">مقدار type درست وارد نشده است</string>
+    <string name="invalidCnnStr">مقدار cnnStr باید 1 وارد شود</string>
+    <string name="invalidMonth">ماه درست وارد نشده</string>
+    <string name="isNotComplete">این سرویس فعلا فعال نیست</string>
+    <string name="nationalCode">nationalCode</string>
+    <string name="erorrDownloading">خطا در دانلود فایل</string>
+    <string name="userLock">userLock</string>
+    <string name="tokenExpired">tokenExpired</string>
+    <string name="profileImage">profileImage</string>
+</resources>

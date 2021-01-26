@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="layout/home_fragment_0">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sharedToolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/homeSliderL"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/homeSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#5A5A5A"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="3"
+                        app:sliderStartAutoCycle="true" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_under_sliderL"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/homeSliderL">
+
+                    <ImageView
+                        android:id="@+id/home_under_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/homeSliderL"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_under_sliderL2"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_under_sliderL">
+
+                    <ImageView
+                        android:id="@+id/home_under_slider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/homeSliderL"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!--                <ImageView
+                                    android:id="@+id/home_under_slider_left"
+                                    android:layout_width="0dp"
+                                    android:layout_height="110dp"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginRight="1dp"
+                                    android:scaleType="fitXY"
+                                    app:layout_constraintEnd_toStartOf="@+id/guideline"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/homeSliderL"
+                                    app:srcCompat="@android:drawable/btn_dialog" />-->
+
+                <TextView
+                    android:id="@+id/CTextView2"
+                    style="@style/textStyle_all_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="تازه ها"
+                    android:textSize="@dimen/text_size_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_under_sliderL2" />
+
+                <TextView
+                    android:id="@+id/newContentBtn"
+                    style="@style/textStyle_all_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="بیشتر "
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/gray"
+                    android:drawableStart="@drawable/ic_left_arrow_gray"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_under_sliderL2" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/newList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CTextView2" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_over_rightL"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/newList">
+
+                    <ImageView
+                        android:id="@+id/home_over_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/newList"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_over_rightL2"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_over_rightL">
+
+                    <ImageView
+                        android:id="@+id/home_over_right2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/newList"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <!--                <ImageView
+                                    android:id="@+id/home_over_left"
+                                    android:layout_width="0dp"
+                                    android:layout_height="110dp"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginRight="1dp"
+                                    android:scaleType="fitXY"
+                                    app:layout_constraintEnd_toStartOf="@+id/guideline"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fantasticSaleRecycler"
+                                    app:srcCompat="@android:drawable/btn_dialog" />-->
+
+                <TextView
+                    android:id="@+id/CTextView"
+                    style="@style/textStyle_all_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="28dp"
+                    android:text="تازه های رایگان"
+                    android:textSize="@dimen/text_size_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_over_rightL2" />
+
+                <TextView
+                    android:id="@+id/freeContentBtn"
+                    style="@style/textStyle_all_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="بیشتر "
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/gray"
+                    android:drawableStart="@drawable/ic_left_arrow_gray"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_over_rightL2" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/freeList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CTextView" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_bottomL"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/freeList">
+
+                    <ImageView
+                        android:id="@+id/home_bottom_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/newList"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_bottomL2"
+                    android:layout_width="0dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_bottomL">
+
+                    <ImageView
+                        android:id="@+id/home_bottom_slider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/newList"
+                        app:srcCompat="@android:drawable/btn_dialog" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+
+        <include
+            android:id="@+id/sharedToolbar"
+            layout="@layout/shared_toolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

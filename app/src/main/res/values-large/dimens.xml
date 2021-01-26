@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">17sp</dimen>
+    <dimen name="text_size_larg">21sp</dimen>
+    <dimen name="bottomBar_toolBar_size">70dp</dimen>
+</resources>

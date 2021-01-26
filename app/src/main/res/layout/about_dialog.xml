@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/text_size_medium"
+        android:paddingBottom="10dp"
+        android:text="مام حقوق این سایت متعلق به کارکوک می باشد.
+
+تمامي كالاها و خدمات اين سایت، حسب مورد، داراي مجوزهاي لازم از مراجع مربوطه مي‌باشند و
+فعاليت‌هاي اين سايت تابع قوانين و مقررات جمهوري اسلامي ايران است. منتظر نظرات شما هستیم.مام حقوق این سایت متعلق به کارکوک می باشد.
+
+تمامي كالاها و خدمات اين سایت، حسب مورد، داراي مجوزهاي لازم از مراجع مربوطه مي‌باشند و
+فعاليت‌هاي اين سايت تابع قوانين و مقررات جمهوري اسلامي ايران است. منتظر نظرات شما هستیم."
+        android:textColor="#000" />
+
+</LinearLayout>
