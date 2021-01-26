@@ -12,7 +12,7 @@
             android:id="@+id/toolbar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@color/purpleDark"
+            android:background="#2ecc71"
             android:elevation="10dp"
             app:contentInsetStart="0dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +22,8 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp">
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
 
 
                 <EditText
@@ -31,16 +31,16 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_marginBottom="3dp"
                     android:background="@drawable/corner_white"
                     android:drawablePadding="8dp"
                     android:gravity="right"
                     android:hint="متن جستجو"
                     android:imeOptions="actionSearch"
-                    android:padding="10dp"
                     android:inputType="text"
+                    android:padding="10dp"
                     android:textSize="@dimen/text_size_medium"
                     android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
