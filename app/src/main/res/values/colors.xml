@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#673AB7</color>
-    <color name="colorPrimaryDark">#4B2293</color>
+    <color name="colorPrimaryDark">#34cc62</color>
     <color name="colorAccent">#00574B</color>
     <color name="green">#ff66cc8b</color>
     <color name="purple">#ff9f68e4</color>
@@ -13,4 +13,16 @@
     <color name="orangeLight">#FFC107</color>
     <color name="redDark">#AF2F25</color>
     <color name="red">#E43C30</color>
+
+
+
+    <color name="colorTextWhite">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorEditText">#14000000</color>
+    <color name="colorButton">#0E68FF</color>
+    <color name="colorButtonText">#ffffff</color>
+    <color name="colorPlaceholder">#505050</color>
+    <color name="colorTextPrimary">#0E68FF</color>
 </resources>

@@ -1,158 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34cc62"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="خوش آمدید"
+        android:textColor="#ffffff"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline18"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:text="اطلاعات خود را تکمیل نمایید"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/card_background"
+        android:elevation="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
 
-        <ScrollView
+        <com.ismaeldivita.chipnavigation.ChipNavigationBar
+            android:id="@+id/bottom_menu"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@+id/goToRegisterPage"
-            android:fillViewport="true">
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/rounded_mynavbottom"
+            android:elevation="16dp"
+            android:padding="8dp" />
 
-
-            <RelativeLayout
-                android:id="@+id/mainLayout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <EditText
-                        android:id="@+id/userName"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="60dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginRight="60dp"
-                        android:background="@drawable/corner_white"
-                        android:backgroundTint="@android:color/white"
-                        android:drawableEnd="@drawable/ic_person_blue"
-                        android:gravity="center"
-                        android:hint="شماره موبایل"
-                        android:inputType="phone"
-                        android:paddingLeft="5dp"
-                        android:paddingTop="10dp"
-                        android:paddingRight="5dp"
-                        android:paddingBottom="10dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/text_size_medium" />
-
-
-                    <EditText
-                        android:id="@+id/password"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="60dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginRight="60dp"
-                        android:background="@drawable/corner_white"
-                        android:backgroundTint="@android:color/white"
-                        android:drawableEnd="@drawable/ic_lock_green"
-                        android:gravity="center"
-                        android:hint="رمز عبور"
-                        android:inputType="textPassword"
-                        android:paddingLeft="5dp"
-                        android:paddingTop="10dp"
-                        android:paddingRight="5dp"
-                        android:paddingBottom="10dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/text_size_medium" />
-
-
-                    <TextView
-                        android:id="@+id/forgetPassword"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:gravity="center"
-                        android:padding="8dp"
-                        android:text="کلمه عبور خود را فراموش کرده اید؟"
-                        android:textColor="@color/blue"
-                        android:textSize="@dimen/text_size_medium" />
-
-                    <RelativeLayout
-                        android:id="@+id/cv2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="90dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginRight="50dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <Button
-                            android:id="@+id/loginBtn"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:background="@drawable/login_gradiant_btn2"
-                            android:paddingLeft="54dp"
-                            android:paddingRight="54dp"
-                            android:text="ورود"
-                            android:textColor="@android:color/white"
-                            android:textSize="@dimen/text_size_medium" />
-
-                        <ProgressBar
-                            android:id="@+id/progress"
-                            style="?android:attr/progressBarStyle"
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
-                            android:visibility="gone"
-                            android:layout_alignTop="@+id/loginBtn"
-                            android:layout_alignBottom="@+id/loginBtn"
-                            android:layout_alignLeft="@+id/loginBtn"
-                            android:layout_centerHorizontal="true"
-                            app:backgroundTint="@color/colorPrimary"
-                            app:backgroundTintMode="src_in" />
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-
-            </RelativeLayout>
-
-
-        </ScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:text="ورود"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="26dp" />
 
         <LinearLayout
-            android:id="@+id/goToRegisterPage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="5dp">
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableEnd="@drawable/ic_phone"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="+98"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:baselineAligned="false"
+                android:drawableEnd="@drawable/lock_icon"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="رمز عبور"
+                android:inputType="textPassword"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:text="فراموشی رمز عبور"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="19dp" />
+
+                <Button
+                    android:id="@+id/loginbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:text="ورود"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="16dp" />
+            </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:text=" اکانت کاربری ندارید؟"
+                android:textStyle="bold"
+                android:fontFamily="@font/seg_ui_semibold"
                 android:gravity="center"
-                android:padding="8dp"
-                android:text="ثبت نام کنید"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_medium" />
+                android:textSize="20sp"
+                android:layout_height="match_parent"/>
 
             <TextView
-                android:id="@+id/asd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:textColor="#0E68FF"
+                android:layout_width="match_parent"
+                android:text="کلیک کنید"
+                android:textStyle="bold"
+                android:fontFamily="@font/seg_ui_semibold"
                 android:gravity="center"
-                android:padding="8dp"
-                android:text="اکانت کاربری ندارید؟ "
-                android:textColor="@color/blue"
-                android:textSize="@dimen/text_size_medium" />
-
+                android:textSize="20sp"
+                android:layout_height="match_parent"/>
         </LinearLayout>
 
-
     </RelativeLayout>
-</layout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="118dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="165dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="28dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="33dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="163dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="74dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
