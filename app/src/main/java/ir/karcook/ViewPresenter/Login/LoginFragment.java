@@ -29,7 +29,6 @@ import ir.karcook.UseCase.Login_useCase;
 import ir.karcook.ViewPresenter.ResetPassword.ResetPasswordFragment;
 import ir.karcook.databinding.LoginBinding;
 
-
 public class LoginFragment extends Fragment implements LoginContract.veiw {
 
     LoginPresenter loginPresenter;
@@ -40,7 +39,6 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
     String phoneNumber;
     EditText phone;
     LoginBinding binding;
-
 
     @Nullable
     @Override
@@ -56,7 +54,6 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
         loginPresenter = new LoginPresenter(this, new Login_useCase(),
                 new GetForgetPassCode_useCase());
         fragmentDestroyed = false;
-
 
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
