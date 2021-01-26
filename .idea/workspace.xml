@@ -37,35 +37,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9480781-73f9-4949-aa8b-3f408e481446" name="Default Changelist" comment="last up">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+    <list default="true" id="c9480781-73f9-4949-aa8b-3f408e481446" name="Default Changelist" comment="boom">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_blue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_primary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_and_boarder_trans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_blue_bottom_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_blue_bottom_side.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_blue_top_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_blue_top_side.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_gray.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_gray.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_primary_top_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_primary_top_side.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_top_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/corner_top_side.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right_blue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mobile_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mobile_phone.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_blue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toolbar_bkg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toolbar_bkg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/login_gradiant_btn1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/login_gradiant_btn1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_orange.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_orange.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_gradiant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_gradiant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/competition_end_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/competition_end_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sub_category_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sub_category_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/subscribe_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/subscribe_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/voice_list_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/voice_list_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/web_view_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/web_view_activity.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611628067448</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="boom">
+      <created>1611644890881</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611644890881</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +403,8 @@
     <MESSAGE value="question page done , play music fixed , ...." />
     <MESSAGE value="add avatar for profile , add score for question end ..." />
     <MESSAGE value="last up" />
-    <option name="LAST_COMMIT_MESSAGE" value="last up" />
+    <MESSAGE value="boom" />
+    <option name="LAST_COMMIT_MESSAGE" value="boom" />
   </component>
   <component name="WindowStateProjectService">
     <state width="653" height="125" key="GridCell.Tab.0.bottom" timestamp="1611622873676">
@@ -449,10 +431,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611639958368" />
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611644507969">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1611644897183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1611644507969" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611644897183" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611644968308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1611644968308" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
