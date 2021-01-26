@@ -6,12 +6,17 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d73f5b8d5ebd45f14fa488881818ddf/jetified-library-2.0.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d73f5b8d5ebd45f14fa488881818ddf/jetified-library-2.0.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d73f5b8d5ebd45f14fa488881818ddf/jetified-library-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/0faa84b21eb3dfae3c5aee7a0bee09a8/jetified-library-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/0faa84b21eb3dfae3c5aee7a0bee09a8/jetified-library-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/0faa84b21eb3dfae3c5aee7a0bee09a8/jetified-library-2.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.felipecsl.asymmetricgridview/library/2.0.1/8a21687b1f1656f6f68b8f89fda39b89114a5cca/library-2.0.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/modules-2/files-2.1/com.felipecsl.asymmetricgridview/library/2.0.1/8a21687b1f1656f6f68b8f89fda39b89114a5cca/library-2.0.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.felipecsl.asymmetricgridview/library/2.0.1/e27bc866a9296f83be447ab740a0c916c4f4b7d/library-2.0.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/modules-2/files-2.1/com.felipecsl.asymmetricgridview/library/2.0.1/e27bc866a9296f83be447ab740a0c916c4f4b7d/library-2.0.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

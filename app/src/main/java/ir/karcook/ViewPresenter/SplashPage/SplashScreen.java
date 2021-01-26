@@ -13,7 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import ir.karcook.BuildConfig;
+import com.bumptech.glide.BuildConfig;
+
 import ir.karcook.Login_Register_Activity;
 import ir.karcook.MainActivity;
 import ir.karcook.R;
@@ -23,7 +24,6 @@ import ir.karcook.UseCase.GetProfile_useCase;
 import ir.karcook.databinding.SplashScreenBinding;
 
 public class SplashScreen extends AppCompatActivity implements SplashScreenContract.view{
-
     SplashScreenBinding binding;
     boolean activityDestroyed = false;
     SplashScreenPresenter presenter;

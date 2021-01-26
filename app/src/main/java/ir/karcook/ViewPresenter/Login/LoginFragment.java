@@ -29,6 +29,7 @@ import ir.karcook.UseCase.Login_useCase;
 import ir.karcook.ViewPresenter.ResetPassword.ResetPasswordFragment;
 import ir.karcook.databinding.LoginBinding;
 
+
 public class LoginFragment extends Fragment implements LoginContract.veiw {
 
     LoginPresenter loginPresenter;
@@ -44,7 +45,7 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.login, container, false);
-        getActivity().findViewById(R.id.topLayout).setVisibility(View.VISIBLE);
+        getActivity().findViewById(R.id.topLayout).setVisibility(View.GONE);
         return binding.getRoot();
     }
 
@@ -89,7 +90,7 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
             binding.progress.setVisibility(View.GONE);
             binding.loginBtn.setText("ورود");
             binding.loginBtn.setEnabled(true);
-            G.getInstance().customSnackBar(getContext(), binding.mainLayout, error);
+            G.getInstance().customSnackBar(getContext(), binding.bottomMenu, error);
         }
     }
 
@@ -126,7 +127,7 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
             binding.progress.setVisibility(View.GONE);
             binding.loginBtn.setText("ورود");
             binding.loginBtn.setEnabled(true);
-            G.getInstance().customSnackBar(getContext(), binding.mainLayout, getString(R.string.loginSuccess));
+            G.getInstance().customSnackBar(getContext(), binding.bottomMenu, getString(R.string.loginSuccess));
             binding.loginBtn.postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -185,7 +186,7 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
                     }
 
                 } else {
-                    G.getInstance().customSnackBar(getContext(), binding.mainLayout, getString(R.string.netWorkError));
+                    G.getInstance().customSnackBar(getContext(), binding.bottomMenu, getString(R.string.netWorkError));
                 }
 
 

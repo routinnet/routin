@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    xmlns:app= "http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        app:cnb_backgroundColor = "#ff785b"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_user"
+        android:title="پروفایل" />
+
+    <item
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        app:cnb_backgroundColor = "#ff785b"
+        android:id="@+id/race"
+        android:icon="@drawable/winner"
+        android:title="مسابقه" />
+
+    <item
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        app:cnb_backgroundColor = "#ff785b"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="جستجو" />
+
+
+    <item
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        app:cnb_backgroundColor = "#ff785b"
+        android:id="@+id/category"
+        android:icon="@drawable/ic_category"
+        android:title="دسته بندی" />
+
+
+    <item
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        app:cnb_backgroundColor = "#ff785b"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="خانه" />
+
+</menu>

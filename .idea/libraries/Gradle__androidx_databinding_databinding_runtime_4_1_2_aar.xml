@@ -4,10 +4,14 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/521020bb4d2502cb7b49463b0cb93d16/databinding-runtime-4.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/4.1.2/89bed51e97f9c0e897d3d774f45a78dd95ea64db/databinding-runtime-4.1.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/4.1.2/89bed51e97f9c0e897d3d774f45a78dd95ea64db/databinding-runtime-4.1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -6,12 +6,17 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc4622c3284aab3c0070532739df13a/jetified-autoimageslider-1.3.2-appcompat/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc4622c3284aab3c0070532739df13a/jetified-autoimageslider-1.3.2-appcompat/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc4622c3284aab3c0070532739df13a/jetified-autoimageslider-1.3.2-appcompat/res" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/657c43776beaeca4603ecbc7caa48ff0/jetified-autoimageslider-1.3.2-appcompat/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/657c43776beaeca4603ecbc7caa48ff0/jetified-autoimageslider-1.3.2-appcompat/res" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/transforms-2/files-2.1/657c43776beaeca4603ecbc7caa48ff0/jetified-autoimageslider-1.3.2-appcompat/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.3.2-appcompat/132af344c4c683e0c88f28dac77029cff34c7d33/autoimageslider-1.3.2-appcompat-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.3.2-appcompat/132af344c4c683e0c88f28dac77029cff34c7d33/autoimageslider-1.3.2-appcompat-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.3.2-appcompat/1d2b0752ba05f72267b7fa42bed82baa78903da1/autoimageslider-1.3.2-appcompat-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/gradle-5.4.1/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.3.2-appcompat/1d2b0752ba05f72267b7fa42bed82baa78903da1/autoimageslider-1.3.2-appcompat-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
