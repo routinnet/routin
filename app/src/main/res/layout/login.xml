@@ -44,7 +44,7 @@
         android:id="@+id/relativeLayout2"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
         android:background="@drawable/card_background"
         android:elevation="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,13 +54,13 @@
         <com.ismaeldivita.chipnavigation.ChipNavigationBar
             android:id="@+id/bottom_menu"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="65dp"
             app:cnb_menuResource="@menu/mymenu"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="1dp"
             android:background="@drawable/rounded_mynavbottom"
             android:elevation="16dp"
-            android:padding="8dp" />
+            android:padding="1dp" />
 
         <TextView
             android:id="@+id/vorod"
@@ -156,9 +156,9 @@
                 android:layout_width="match_parent"
                 android:text=" اکانت کاربری ندارید؟"
                 android:textStyle="bold"
-                android:fontFamily="@font/seg_ui_semibold"
+                android:fontFamily="@font/iran_sans_lightt"
                 android:gravity="center"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_height="match_parent"/>
 
             <TextView
@@ -167,9 +167,9 @@
                 android:layout_width="match_parent"
                 android:text="کلیک کنید"
                 android:textStyle="bold"
-                android:fontFamily="@font/seg_ui_semibold"
+                android:fontFamily="@font/iran_sans_lightt"
                 android:gravity="center"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:layout_height="match_parent"/>
 
             <ProgressBar

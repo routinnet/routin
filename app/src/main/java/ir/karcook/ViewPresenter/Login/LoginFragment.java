@@ -45,7 +45,7 @@ public class LoginFragment extends Fragment implements LoginContract.veiw {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.login, container, false);
-        getActivity().findViewById(R.id.topLayout).setVisibility(View.GONE);
+       // getActivity().findViewById(R.id.topLayout).setVisibility(View.GONE);
         return binding.getRoot();
     }
 

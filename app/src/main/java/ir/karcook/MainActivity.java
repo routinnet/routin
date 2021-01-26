@@ -11,6 +11,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 
 import ir.karcook.Tools.Shared_Prefrences;
 import ir.karcook.ViewPresenter.CategoryPage.CategoryFragment;
@@ -27,12 +28,21 @@ public class MainActivity extends AppCompatActivity {
     boolean activityDestroyed = false;
     private long mBackPressed;
     final int TIME_INTERVAL = 2000;
+    ChipNavigationBar nav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         activityDestroyed = false;
+
+        nav = (ChipNavigationBar)findViewById(R.id.bottom_menu);
+        nav.setOnItemSelectedListener(new ChipNavigationBar.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(int i) {
+
+            }
+        });
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out,
