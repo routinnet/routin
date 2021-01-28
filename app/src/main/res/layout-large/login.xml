@@ -21,8 +21,6 @@
         android:textSize="36dp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
-        app:layout_constraintHorizontal_bias="0.658"
-        app:layout_constraintStart_toStartOf="@+id/guideline19"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -36,7 +34,6 @@
         android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
         app:layout_constraintEnd_toStartOf="@+id/guideline21"
-        app:layout_constraintStart_toStartOf="@+id/guideline22"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 
@@ -56,7 +53,7 @@
             android:id="@+id/vorod"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="320dp"
+            android:layout_marginLeft="390dp"
             android:layout_marginTop="36dp"
             android:fontFamily="@font/seg_ui_semibold"
             android:text="ورود"
@@ -119,7 +116,7 @@
                     android:id="@+id/forgetPassword"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="12dp"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginRight="15dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/seg_ui_semibold"
@@ -164,7 +161,7 @@
 
             <ProgressBar
                 android:visibility="gone"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="1dp"
                 android:layout_gravity="center"
                 android:padding="2dp"
                 android:id="@+id/progress"

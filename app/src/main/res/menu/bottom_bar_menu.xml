@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/profile"
+    <item
+        android:id="@+id/profile"
         android:icon="@drawable/ic_user"
         android:title="پروفایل" />
-    <item android:id="@+id/competition"
+    <item
+        android:id="@+id/competition"
         android:icon="@drawable/ic_cup"
         android:title="مسابقه" />
-    <item android:id="@+id/search"
+    <item
+        android:id="@+id/search"
         android:icon="@drawable/ic_search"
         android:title="جستجو" />
-    <item android:id="@+id/category_bottom"
+    <item
+        android:id="@+id/category_bottom"
         android:icon="@drawable/ic_toolbar_menu"
         android:title="دسته بندی" />
-    <item android:id="@+id/home_bottom"
+    <item
+        android:id="@+id/home_bottom"
         android:icon="@drawable/ic_home"
         android:title="خانه" />
 </menu>

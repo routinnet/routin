@@ -41,7 +41,7 @@
         app:cnb_iconColor = "#fff"
         app:cnb_textColor = "#fff"
         app:cnb_backgroundColor = "#ff785b"
-        android:id="@+id/home"
+        android:id="@+id/apphome"
         android:icon="@drawable/ic_home"
         android:title="خانه" />
 

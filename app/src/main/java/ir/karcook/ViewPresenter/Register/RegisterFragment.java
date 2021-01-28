@@ -7,9 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -24,7 +26,6 @@ import java.util.Map;
 import ir.karcook.R;
 import ir.karcook.Tools.G;
 import ir.karcook.UseCase.GetForgetPassCode_useCase;
-import ir.karcook.UseCase.GetVerifyCode_useCase;
 import ir.karcook.UseCase.Register_useCase;
 import ir.karcook.ViewPresenter.Login.LoginFragment;
 import ir.karcook.ViewPresenter.RecieveCode.ReceiveCodeFragment;
@@ -35,12 +36,12 @@ import ir.karcook.databinding.RegisterBinding;
  * Created by Adak on 23/05/2018.
  */
 
-public class RegisterFragment extends Fragment implements RegisterContract.view {
+public class RegisterFragment extends Fragment implements RegisterContract.view, AdapterView.OnItemClickListener {
 
     RegisterBinding binding;
     boolean fragmentDestroyed = false;
     RegisterPresenter p_register;
-
+    Spinner spinner;
     ProgressBar dialogProgress;
     Dialog dialog;
     TextView dialogOk;
@@ -220,9 +221,12 @@ public class RegisterFragment extends Fragment implements RegisterContract.view 
                     G.getInstance().customSnackBar(getContext(), binding.mainLayout, getString(R.string.netWorkError));
                 }
 
-
             }
         });
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+    }
 }
