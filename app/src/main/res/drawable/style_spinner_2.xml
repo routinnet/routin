@@ -4,7 +4,7 @@
     <layer-list>
         <item>
             <shape android:shape="rectangle">
-                <solid android:color="#B9BDBB"/>
+                <solid android:color="#549C73"/>
                 <corners android:radius="9dp"/>
                 <padding android:right="10dp"/>
             </shape>

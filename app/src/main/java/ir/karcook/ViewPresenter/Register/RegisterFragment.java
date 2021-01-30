@@ -52,7 +52,7 @@ public class RegisterFragment extends Fragment implements RegisterContract.view,
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.register, container, false);
-        getActivity().findViewById(R.id.topLayout).setVisibility(View.VISIBLE);
+       // getActivity().findViewById(R.id.topLayout).setVisibility(View.VISIBLE);
         return binding.getRoot();
     }
 
@@ -64,16 +64,16 @@ public class RegisterFragment extends Fragment implements RegisterContract.view,
         fragmentDestroyed = false;
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), R.layout.spinner_text, G.educationList);
-        binding.education.setAdapter(adapter);
+      //  binding.education.setAdapter(adapter);
 
         binding.registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (G.getInstance().isNetworkAvailable(getContext())) {
                     if (binding.userName.getText().toString().equals("") || binding.password.getText().toString().equals("")
-                            || binding.repeatPassword.getText().toString().equals("") ||
-                            binding.age.getText().toString().equals(""))
-                        G.getInstance().customSnackBar(getContext(), binding.getRoot(), getString(R.string.EmptyFieldError));
+                            || binding.repeatPassword.getText().toString().equals("") );
+                     //       binding.age.getText().toString().equals(""))
+                   //     G.getInstance().customSnackBar(getContext(), binding.getRoot(), getString(R.string.EmptyFieldError));
                     else if (binding.password.getText().toString().length() < 6)
                         binding.password.setError(getString(R.string.passwordError));
                     else if (!binding.userName.getText().toString().startsWith("09") || binding.userName.getText().toString().length() < 11)
@@ -89,8 +89,8 @@ public class RegisterFragment extends Fragment implements RegisterContract.view,
                         params.put("Username", G.getInstance().replaceFarsiNumber(binding.userName.getText().toString()));
                         params.put("Password", G.getInstance().replaceFarsiNumber(binding.password.getText().toString()));
                         params.put("IntroducingFriendsCode", G.getInstance().replaceFarsiNumber(binding.friendCode.getText().toString()));
-                        params.put("Age", Integer.parseInt(G.getInstance().replaceFarsiNumber(binding.age.getText().toString())));
-                        params.put("DegreeOfEducation", binding.education.getSelectedItemPosition() + 1);
+                       // params.put("Age", Integer.parseInt(G.getInstance().replaceFarsiNumber(binding.age.getText().toString())));
+                     //   params.put("DegreeOfEducation", binding.education.getSelectedItemPosition() + 1);
                         p_register.register(params);
                     }
                 } else
@@ -218,7 +218,7 @@ public class RegisterFragment extends Fragment implements RegisterContract.view,
                     }
 
                 } else {
-                    G.getInstance().customSnackBar(getContext(), binding.mainLayout, getString(R.string.netWorkError));
+                    G.getInstance().customSnackBar(getContext(), binding.linearlayoutregister, getString(R.string.netWorkError));
                 }
 
             }

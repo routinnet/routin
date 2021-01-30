@@ -28,7 +28,7 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="37dp"
+            android:layout_marginRight="45dp"
             android:layout_marginBottom="64dp"
             android:fontFamily="@font/seg_ui_semibold"
             android:text="برای دسترسی به برنامه ثبت نام نمایید"
@@ -38,7 +38,6 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline21"
             app:layout_constraintStart_toStartOf="@+id/guideline22"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
 
         <RelativeLayout
             android:id="@+id/relativeLayout2"
@@ -57,13 +56,13 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginEnd="41dp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="ثبت نام"
                 android:textColor="@color/colorTextBlack"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -72,9 +71,9 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/friendCode"
+                    android:id="@+id/PhoneNumber"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginRight="48dp"
                     android:layout_marginBottom="12dp"
@@ -90,9 +89,10 @@
                     android:textColorHint="@color/colorPlaceholder" />
 
                 <EditText
+                    android:textAlignment="center"
                     android:id="@+id/userName"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginRight="48dp"
                     android:background="@drawable/edit_text_background"
@@ -107,16 +107,17 @@
                     android:textColorHint="@color/colorPlaceholder" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="25dp"
-                    android:fontFamily="@font/seg_ui_semibold"
+                    android:layout_marginRight="37dp"
+                    android:fontFamily="@font/segoe_ui_bold"
                     android:text="سن خود را وارد نمایید"
                     android:textColor="#000000"
-                    android:textSize="19sp" />
+                    android:textSize="21sp" />
 
                 <LinearLayout
-                    android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="70dp"
                     android:orientation="horizontal">
@@ -151,6 +152,7 @@
                         android:textColorHint="@color/colorPlaceholder" />
 
                     <Spinner
+                        android:entries="@array/Spinner_day_items"
                         android:id="@+id/dayspin"
                         android:layout_width="70dp"
                         android:layout_height="50dp"
@@ -170,7 +172,7 @@
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginRight="48dp"
@@ -187,9 +189,9 @@
                     android:textColorHint="@color/colorPlaceholder" />
 
                 <EditText
-                    android:id="@+id/repeatPassword"
+                    android:id="@+id/passwordsub"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="48dp"
@@ -212,34 +214,48 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="48dp"
                     android:orientation="horizontal"
-                    android:weightSum="1">
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/forgetPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/seg_ui_semibold"
+                        android:text="فراموشی رمز عبور"
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="19dp" />
 
                     <Button
                         android:id="@+id/registerBtn"
                         android:layout_width="0dp"
-                        android:layout_height="52dp"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         android:background="@drawable/button_background"
                         android:fontFamily="@font/seg_ui_semibold"
                         android:text="ثبت نام"
                         android:textAllCaps="false"
                         android:textColor="@color/colorButtonText"
-                        android:textSize="18dp" />
+                        android:textSize="16dp" />
                 </LinearLayout>
 
                 <TextView
+                    android:id="@+id/asd"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="18dp"
                     android:fontFamily="@font/iran_sans_lightt"
                     android:gravity="center"
-                    android:text=" اکانت کاربری ندارید؟"
+                    android:text=" اکانت کاربری دارید؟"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/asd"
+                    android:id="@+id/goToLoginPage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/iran_sans_lightt"

@@ -2,7 +2,6 @@ package ir.karcook;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +10,6 @@ import androidx.fragment.app.FragmentTransaction;
 
 import ir.karcook.Tools.Shared_Prefrences;
 import ir.karcook.ViewPresenter.IntroFragment;
-import ir.karcook.ViewPresenter.Login.LoginFragment;
 import ir.karcook.databinding.LoginRegisterActivityBinding;
 
 
@@ -22,7 +20,6 @@ import ir.karcook.databinding.LoginRegisterActivityBinding;
 public class Login_Register_Activity extends AppCompatActivity {
 
     LoginRegisterActivityBinding binding;
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

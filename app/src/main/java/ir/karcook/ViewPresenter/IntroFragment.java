@@ -1,7 +1,6 @@
 package ir.karcook.ViewPresenter;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +14,6 @@ import androidx.fragment.app.FragmentTransaction;
 
 import ir.karcook.MainActivity;
 import ir.karcook.R;
-import ir.karcook.Tools.Shared_Prefrences;
 import ir.karcook.ViewPresenter.Login.LoginFragment;
 import ir.karcook.ViewPresenter.Register.RegisterFragment;
 import ir.karcook.databinding.IntroPageBinding;
@@ -48,7 +46,6 @@ public class IntroFragment extends Fragment {
 
             }
         });
-
 
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
