@@ -14,11 +14,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/segoe_ui_bold"
         android:text="خوش آمدید"
         android:textColor="#ffffff"
-        android:textSize="36dp"
+        android:textSize="32dp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
         app:layout_constraintHorizontal_bias="0.658"
@@ -54,14 +54,14 @@
 
         <TextView
             android:id="@+id/vorod"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="320dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="30dp"
             android:fontFamily="@font/seg_ui_semibold"
             android:text="ورود"
             android:textColor="@color/colorTextBlack"
-            android:textSize="26dp" />
+            android:textSize="22dp" />
 
 
         <LinearLayout
@@ -73,7 +73,7 @@
             <EditText
                 android:id="@+id/userName"
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
+                android:layout_height="45dp"
                 android:layout_marginLeft="48dp"
                 android:layout_marginRight="48dp"
                 android:background="@drawable/edit_text_background"
@@ -90,7 +90,7 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
+                android:layout_height="45dp"
                 android:layout_marginLeft="48dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="48dp"
@@ -125,12 +125,12 @@
                     android:fontFamily="@font/seg_ui_semibold"
                     android:text="فراموشی رمز عبور"
                     android:textColor="@color/colorTextBlack"
-                    android:textSize="19dp" />
+                    android:textSize="17dp" />
 
                 <Button
                     android:id="@+id/loginBtn"
                     android:layout_width="0dp"
-                    android:layout_height="52dp"
+                    android:layout_height="45dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_background"
                     android:fontFamily="@font/seg_ui_semibold"
@@ -148,7 +148,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/iran_sans_lightt"
                 android:gravity="center"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_height="match_parent"/>
 
             <TextView
@@ -159,7 +159,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/iran_sans_lightt"
                 android:gravity="center"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:layout_height="match_parent"/>
 
             <ProgressBar

@@ -17,7 +17,7 @@
             android:fontFamily="@font/segoe_ui_bold"
             android:text="خوش آمدید"
             android:textColor="#ffffff"
-            android:textSize="36dp"
+            android:textSize="30dp"
             app:layout_constraintBottom_toTopOf="@+id/textView6"
             app:layout_constraintEnd_toStartOf="@+id/guideline18"
             app:layout_constraintHorizontal_bias="0.658"
@@ -33,7 +33,7 @@
             android:fontFamily="@font/seg_ui_semibold"
             android:text="برای دسترسی به برنامه ثبت نام نمایید"
             android:textColor="#ffffff"
-            android:textSize="18dp"
+            android:textSize="16dp"
             app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
             app:layout_constraintEnd_toStartOf="@+id/guideline21"
             app:layout_constraintStart_toStartOf="@+id/guideline22"
@@ -52,17 +52,16 @@
 
             <TextView
                 android:id="@+id/vorod"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginLeft="250dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="41dp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="ثبت نام"
                 android:textColor="@color/colorTextBlack"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -73,7 +72,7 @@
                 <EditText
                     android:id="@+id/PhoneNumber"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="45dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginRight="48dp"
                     android:layout_marginBottom="12dp"
@@ -92,7 +91,7 @@
                     android:textAlignment="center"
                     android:id="@+id/userName"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="45dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginRight="48dp"
                     android:background="@drawable/edit_text_background"
@@ -115,7 +114,7 @@
                     android:fontFamily="@font/segoe_ui_bold"
                     android:text="سن خود را وارد نمایید"
                     android:textColor="#000000"
-                    android:textSize="21sp" />
+                    android:textSize="20sp" />
 
                 <LinearLayout
                     android:gravity="center"
@@ -126,7 +125,7 @@
                     <Spinner
                         android:id="@+id/age"
                         android:layout_width="45dp"
-                        android:layout_height="50dp"
+                        android:layout_height="45dp"
                         android:layout_marginLeft="48dp"
                         android:layout_marginRight="48dp"
                         android:background="@drawable/style_spinner_2"
@@ -139,7 +138,7 @@
                     <Spinner
                         android:id="@+id/mounthspin"
                         android:layout_width="45dp"
-                        android:layout_height="50dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="48dp"
                         android:background="@drawable/style_spinner_2"
                         android:fontFamily="@font/seg_ui_semibold"
@@ -153,7 +152,7 @@
                         android:entries="@array/Spinner_day_items"
                         android:id="@+id/dayspin"
                         android:layout_width="45dp"
-                        android:layout_height="50dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="48dp"
                         android:background="@drawable/style_spinner_2"
                         android:fontFamily="@font/seg_ui_semibold"
@@ -169,7 +168,7 @@
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="45dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginRight="48dp"
@@ -188,7 +187,7 @@
                 <EditText
                     android:id="@+id/passwordsub"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="45dp"
                     android:layout_marginLeft="48dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="48dp"
@@ -224,12 +223,12 @@
                         android:fontFamily="@font/seg_ui_semibold"
                         android:text="فراموشی رمز عبور"
                         android:textColor="@color/colorTextBlack"
-                        android:textSize="19dp" />
+                        android:textSize="16dp" />
 
                     <Button
                         android:id="@+id/registerBtn"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="45dp"
                         android:layout_weight="1"
                         android:background="@drawable/button_background"
                         android:fontFamily="@font/seg_ui_semibold"
@@ -248,7 +247,7 @@
                     android:gravity="center"
                     android:text=" اکانت کاربری دارید؟"
                     android:textColor="#000000"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -259,7 +258,7 @@
                     android:gravity="center"
                     android:text="کلیک کنید"
                     android:textColor="#0E68FF"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <ProgressBar

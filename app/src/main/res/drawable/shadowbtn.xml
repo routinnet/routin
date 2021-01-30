@@ -12,7 +12,7 @@
 -->
     <item android:state_enabled="true">
         <shape android:shape="rectangle">
-            <gradient android:startColor="#A9B3AC"  android:endColor="#877979"  android:type="linear"/>
+            <gradient android:startColor="#CCD1CD"  android:endColor="#A6A0A0"  android:type="linear"/>
             <corners android:radius="10dp"/>
             <stroke android:color="@android:color/darker_gray" android:width="1dp"/>
         </shape>
