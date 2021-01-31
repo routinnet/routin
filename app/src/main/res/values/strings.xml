@@ -44,6 +44,8 @@
     <string name="userLock">userLock</string>
     <string name="tokenExpired">tokenExpired</string>
     <string name="profileImage">profileImage</string>
+    <string name="todo" />
+    <string name="kn" />
 
 
     <string-array name="Spinner_day_items">

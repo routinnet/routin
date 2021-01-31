@@ -16,11 +16,12 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:gravity="center"
-            android:src="@drawable/karcook_title_logo"
+            android:src="@drawable/typographibisti"
             app:layout_constraintBottom_toBottomOf="@+id/logo"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
-            app:layout_constraintTop_toTopOf="@+id/guideline8" />
+            app:layout_constraintTop_toTopOf="@+id/guideline8"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="0dp"
@@ -28,7 +29,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:gravity="center"
-            android:text="کودکان امروز کارآفرینان فردا"
+            android:text="تو بیستی چون مثل همه نیستی"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_medium"
             android:visibility="visible"
@@ -54,6 +55,10 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFFFF"
+                android:foregroundTint="#FFFFFF"
+                android:indeterminateTint="#FFFFFF"
+                android:progressTint="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +85,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:gravity="center"
-                android:text="لطفا منتظر بمانید"
+                android:text="@string/kn"
                 android:textSize="@dimen/text_size_medium"
                 android:visibility="visible"
                 android:textColor="@android:color/white"
@@ -126,7 +131,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toTopOf="@+id/guideline7"
-            app:srcCompat="@drawable/ic_logo" />
+            app:srcCompat="@drawable/bistilogo" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline8"
